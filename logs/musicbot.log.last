@@ -1,0 +1,61 @@
+[74.991226196] 2018-07-15 20:17:09,415 - INFO - launcher: Starting sanity checks
+[508.522748947] 2018-07-15 20:17:09,848 - INFO - launcher: Checking for Python 3.5+
+[509.517908096] 2018-07-15 20:17:09,849 - INFO - launcher: Checking console encoding
+[509.517908096] 2018-07-15 20:17:09,849 - INFO - launcher: Setting console encoding to UTF-8
+[510.517358780] 2018-07-15 20:17:09,850 - INFO - launcher: Ensuring we're in the right environment
+[512.330055237] 2018-07-15 20:17:09,852 - INFO - launcher: Adding local bins/ folder to path
+[512.877464294] 2018-07-15 20:17:09,853 - INFO - launcher: Required checks passed.
+[513.879060745] 2018-07-15 20:17:09,854 - INFO - launcher: Optional checks passed.
+[513.879060745] 2018-07-15 20:17:09,854 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.5398018360137939] 2018-07-15 20:17:11,880 - WARNING - musicbot.config | In config.py::MainThread(35276), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.5408105850219727] 2018-07-15 20:17:11,881 - INFO - musicbot.config | In config.py::MainThread(35276), line 123 in run_checks: Using i18n: config/i18n/en.json
+[2.5428001880645752] 2018-07-15 20:17:11,883 - DEBUG - musicbot.json | In json.py::MainThread(35276), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.9184219837188721] 2018-07-15 20:17:12,258 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 227 in _setup_logging: Set logging level to INFO
+[2.9184219837188721] 2018-07-15 20:17:12,258 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 84 in __init__: Starting MusicBot 1.9.7
+[2.9194126129150391] 2018-07-15 20:17:12,259 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[6.8240272998809814] 2018-07-15 20:17:16,164 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 1074 in on_ready: Connection established, ready to go.
+[6.8240272998809814] 2018-07-15 20:17:16,164 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 339 in _cache_app_info: Caching app info
+[7.0181796550750732] 2018-07-15 20:17:16,358 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[7.0191910266876221] 2018-07-15 20:17:16,359 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 905 in _scheck_server_permissions: Checking server permissions
+[7.0191910266876221] 2018-07-15 20:17:16,359 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[7.0191910266876221] 2018-07-15 20:17:16,359 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 913 in _scheck_configs: Validating config
+[7.0191910266876221] 2018-07-15 20:17:16,359 - DEBUG - musicbot.config | In config.py::MainThread(35276), line 212 in async_validate: Validating options...
+[7.0191910266876221] 2018-07-15 20:17:16,359 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 916 in _scheck_configs: Validating permissions config
+[7.0191910266876221] 2018-07-15 20:17:16,359 - DEBUG - musicbot.permissions | In permissions.py::MainThread(35276), line 64 in async_validate: Validating permissions...
+[7.0191910266876221] 2018-07-15 20:17:16,359 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 1091 in on_ready: Connected: 467765842789007370/A-RP#1549
+[7.0201947689056396] 2018-07-15 20:17:16,360 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 1099 in on_ready: Owner:     228205637828345856/AdyExTrEmE#9782
+
+[7.0211811065673828] 2018-07-15 20:17:16,361 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 1102 in on_ready: Server List:
+[7.0211811065673828] 2018-07-15 20:17:16,361 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 1105 in on_ready:  - A-RP
+[7.0217099189758301] 2018-07-15 20:17:16,361 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 1138 in on_ready: Bound to text channels:
+[7.0217099189758301] 2018-07-15 20:17:16,361 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 1139 in <listcomp>:  - A-RP/ady_private_channel
+[7.0227191448211670] 2018-07-15 20:17:16,362 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 1139 in <listcomp>:  - A-RP/🎶music-channel🎶
+[7.0237176418304443] 2018-07-15 20:17:16,363 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 1164 in on_ready: Autojoining voice chanels:
+[7.0237176418304443] 2018-07-15 20:17:16,363 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 1165 in <listcomp>:  - A-RP/🎵Music Channel #1🎵
+[7.0247070789337158] 2018-07-15 20:17:16,364 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 281 in _join_startup_channels: Attempting to join A-RP/🎵Music Channel #1🎵
+[7.0247070789337158] 2018-07-15 20:17:16,364 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 452 in get_voice_client: Connection attempt 1 to 🎵Music Channel #1🎵
+[7.0247070789337158] 2018-07-15 20:17:16,364 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(35276), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[7.0247070789337158] 2018-07-15 20:17:16,364 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(35276), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[7.0257189273834229] 2018-07-15 20:17:16,365 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(35276), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[7.2119450569152832] 2018-07-15 20:17:16,552 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 2926 in on_voice_state_update: Resumed voice connection to A-RP/🎵Music Channel #1🎵
+[7.2119450569152832] 2018-07-15 20:17:16,552 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(35276), line 2938 in on_voice_state_update: Voice state update for 467765842789007370/A-RP#1549 on A-RP/🎵Music Channel #1🎵 -> [RESUME, CONNECT]
+[7.2119450569152832] 2018-07-15 20:17:16,552 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(35276), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[7.3000171184539795] 2018-07-15 20:17:16,640 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(35276), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[7.8005518913269043] 2018-07-15 20:17:17,140 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(35276), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[7.8013787269592285] 2018-07-15 20:17:17,141 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 478 in get_voice_client: Connected in 0.8s
+[7.8013787269592285] 2018-07-15 20:17:17,141 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 479 in get_voice_client: Connected to A-RP/🎵Music Channel #1🎵
+[7.8013787269592285] 2018-07-15 20:17:17,141 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 849 in deserialize_queue: Deserializing queue for 304939818746511361
+[7.8943519592285156] 2018-07-15 20:17:17,234 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 570 in get_player: Created player via deserialization for server 304939818746511361 with 1 entries
+[7.8943519592285156] 2018-07-15 20:17:17,234 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 297 in _join_startup_channels: Joined A-RP/🎵Music Channel #1🎵
+[7.8953518867492676] 2018-07-15 20:17:17,235 - VOICEDEBUG - musicbot.player | In player.py::MainThread(35276), line 373 in websocket_check: Starting websocket check loop for A-RP
+[7.8953518867492676] 2018-07-15 20:17:17,235 - DEBUG - musicbot.entry | In entry.py::MainThread(35276), line 54 in get_ready_future: Created future for audio_cache\youtube-JaEuTKkGQqc-Andra_Gogan_-_Ne_vedem_in_septembrie_Official_Video_by_Mixton_Music.webm
+[7.8953518867492676] 2018-07-15 20:17:17,235 - FFMPEG - musicbot.player | In player.py::MainThread(35276), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-JaEuTKkGQqc-Andra_Gogan_-_Ne_vedem_in_septembrie_Official_Video_by_Mixton_Music.webm
+[7.8993508815765381] 2018-07-15 20:17:17,239 - DEBUG - musicbot.bot | In bot.py::MainThread(35276), line 825 in serialize_queue: Serializing queue for 304939818746511361
+[14.3108887672424316] 2018-07-15 20:17:23,651 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(35276), line 2938 in on_voice_state_update: Voice state update for 467765842789007370/A-RP#1549 on A-RP/🌍Lobby🌍 -> [JOIN, MOVE]
+[14.3118722438812256] 2018-07-15 20:17:23,652 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 2949 in on_voice_state_update: 467765842789007370/A-RP#1549 has joined A-RP/🌍Lobby🌍
+[14.9802529811859131] 2018-07-15 20:17:24,320 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(35276), line 2938 in on_voice_state_update: Voice state update for 228205637828345856/AdyExTrEmE#9782 on A-RP/🎵Music Channel #2🎵 -> [MOVE]
+[16.1049280166625977] 2018-07-15 20:17:25,445 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(35276), line 2938 in on_voice_state_update: Voice state update for 228205637828345856/AdyExTrEmE#9782 on A-RP/🌍Lobby🌍 -> [JOIN, MOVE]
+[16.1049280166625977] 2018-07-15 20:17:25,445 - INFO - musicbot.bot | In bot.py::MainThread(35276), line 2949 in on_voice_state_update: 228205637828345856/AdyExTrEmE#9782 has joined A-RP/🌍Lobby🌍
